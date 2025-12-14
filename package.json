@@ -1,0 +1,24 @@
+{
+  "name": "migrando-a-sass",
+  "version": "1.0.0",
+  "description": "migrando a sass",
+  "homepage": "https://github.com/davidcarnero13/Entrega_ProyectoFinal_DavidCarnero#readme",
+  "bugs": {
+    "url": "https://github.com/davidcarnero13/Entrega_ProyectoFinal_DavidCarnero/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcarnero13/Entrega_ProyectoFinal_DavidCarnero.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass --watch sass/main.scss:css/main.css"
+  },
+  "devDependencies": {
+    "sass": "^1.96.0"
+  }
+}
